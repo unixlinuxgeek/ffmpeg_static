@@ -1,7 +1,7 @@
 package ffmpeg_static
 
-const app = "./amd64/ffmpeg"
+const ffmpeg64 = "./amd64/ffmpeg"
 
-func Path64() string {
-	return app
+func FFmpeg64() string {
+	return ffmpeg64
 }
